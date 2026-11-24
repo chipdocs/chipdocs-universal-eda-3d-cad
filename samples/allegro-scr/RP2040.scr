@@ -1,0 +1,580 @@
+# ChipDocs.org Clean-Room Cadence Allegro / OrCAD PCB Editor Footprint Script
+# Component: RP2040 | Package: C2040_LQFN-56_7x7 | Standard: IPC-7351B / JEDEC MO-220
+# Usage: In Allegro PCB Editor Command Window -> replay C2040_LQFN-56_7x7.scr
+version 17.4
+setwindow pcb
+new
+newdrawfillin "C2040_LQFN-56_7x7.dra" "Package Symbol"
+prmed
+setwindow form.prmedit
+FORM prmedit units Millimeter
+FORM prmedit accuracy 3
+FORM prmedit width 28.26
+FORM prmedit height 28.26
+FORM prmedit x -14.13
+FORM prmedit y -14.13
+FORM prmedit done
+setwindow pcb
+
+# 1. Place IPC-7351B Electrical & Mechanical Pins
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 1
+FORM mini angle 0.00
+setwindow pcb
+pick -3.438 2.600
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 2
+FORM mini angle 0.00
+setwindow pcb
+pick -3.438 2.200
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 3
+FORM mini angle 0.00
+setwindow pcb
+pick -3.438 1.800
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 4
+FORM mini angle 0.00
+setwindow pcb
+pick -3.438 1.400
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 5
+FORM mini angle 0.00
+setwindow pcb
+pick -3.438 1.000
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 6
+FORM mini angle 0.00
+setwindow pcb
+pick -3.438 0.600
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 7
+FORM mini angle 0.00
+setwindow pcb
+pick -3.438 0.200
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 8
+FORM mini angle 0.00
+setwindow pcb
+pick -3.438 -0.200
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 9
+FORM mini angle 0.00
+setwindow pcb
+pick -3.438 -0.600
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 10
+FORM mini angle 0.00
+setwindow pcb
+pick -3.438 -1.000
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 11
+FORM mini angle 0.00
+setwindow pcb
+pick -3.438 -1.400
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 12
+FORM mini angle 0.00
+setwindow pcb
+pick -3.438 -1.800
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 13
+FORM mini angle 0.00
+setwindow pcb
+pick -3.438 -2.200
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 14
+FORM mini angle 0.00
+setwindow pcb
+pick -3.438 -2.600
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 15
+FORM mini angle 0.00
+setwindow pcb
+pick -2.600 -3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 16
+FORM mini angle 0.00
+setwindow pcb
+pick -2.200 -3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 17
+FORM mini angle 0.00
+setwindow pcb
+pick -1.800 -3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 18
+FORM mini angle 0.00
+setwindow pcb
+pick -1.400 -3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 19
+FORM mini angle 0.00
+setwindow pcb
+pick -1.000 -3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 20
+FORM mini angle 0.00
+setwindow pcb
+pick -0.600 -3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 21
+FORM mini angle 0.00
+setwindow pcb
+pick -0.200 -3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 22
+FORM mini angle 0.00
+setwindow pcb
+pick 0.200 -3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 23
+FORM mini angle 0.00
+setwindow pcb
+pick 0.600 -3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 24
+FORM mini angle 0.00
+setwindow pcb
+pick 1.000 -3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 25
+FORM mini angle 0.00
+setwindow pcb
+pick 1.400 -3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 26
+FORM mini angle 0.00
+setwindow pcb
+pick 1.800 -3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 27
+FORM mini angle 0.00
+setwindow pcb
+pick 2.200 -3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 28
+FORM mini angle 0.00
+setwindow pcb
+pick 2.600 -3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 29
+FORM mini angle 0.00
+setwindow pcb
+pick 3.438 -2.600
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 30
+FORM mini angle 0.00
+setwindow pcb
+pick 3.438 -2.200
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 31
+FORM mini angle 0.00
+setwindow pcb
+pick 3.438 -1.800
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 32
+FORM mini angle 0.00
+setwindow pcb
+pick 3.438 -1.400
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 33
+FORM mini angle 0.00
+setwindow pcb
+pick 3.438 -1.000
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 34
+FORM mini angle 0.00
+setwindow pcb
+pick 3.438 -0.600
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 35
+FORM mini angle 0.00
+setwindow pcb
+pick 3.438 -0.200
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 36
+FORM mini angle 0.00
+setwindow pcb
+pick 3.438 0.200
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 37
+FORM mini angle 0.00
+setwindow pcb
+pick 3.438 0.600
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 38
+FORM mini angle 0.00
+setwindow pcb
+pick 3.438 1.000
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 39
+FORM mini angle 0.00
+setwindow pcb
+pick 3.438 1.400
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 40
+FORM mini angle 0.00
+setwindow pcb
+pick 3.438 1.800
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 41
+FORM mini angle 0.00
+setwindow pcb
+pick 3.438 2.200
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_88x20
+FORM mini mechanical NO
+FORM mini next_pin_number 42
+FORM mini angle 0.00
+setwindow pcb
+pick 3.438 2.600
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 43
+FORM mini angle 0.00
+setwindow pcb
+pick 2.600 3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 44
+FORM mini angle 0.00
+setwindow pcb
+pick 2.200 3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 45
+FORM mini angle 0.00
+setwindow pcb
+pick 1.800 3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 46
+FORM mini angle 0.00
+setwindow pcb
+pick 1.400 3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 47
+FORM mini angle 0.00
+setwindow pcb
+pick 1.000 3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 48
+FORM mini angle 0.00
+setwindow pcb
+pick 0.600 3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 49
+FORM mini angle 0.00
+setwindow pcb
+pick 0.200 3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 50
+FORM mini angle 0.00
+setwindow pcb
+pick -0.200 3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 51
+FORM mini angle 0.00
+setwindow pcb
+pick -0.600 3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 52
+FORM mini angle 0.00
+setwindow pcb
+pick -1.000 3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 53
+FORM mini angle 0.00
+setwindow pcb
+pick -1.400 3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 54
+FORM mini angle 0.00
+setwindow pcb
+pick -1.800 3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 55
+FORM mini angle 0.00
+setwindow pcb
+pick -2.200 3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_20x88
+FORM mini mechanical NO
+FORM mini next_pin_number 56
+FORM mini angle 0.00
+setwindow pcb
+pick -2.600 3.438
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_320x320
+FORM mini mechanical NO
+FORM mini next_pin_number 57
+FORM mini angle 0.00
+setwindow pcb
+pick 0.000 0.000
+done
+
+# 2. Clipped Top Silkscreen (PACKAGE GEOMETRY / SILKSCREEN_TOP)
+add line
+setwindow form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.15
+setwindow pcb
+pick -3.500 3.500
+pick -2.920 3.500
+next
+pick 2.920 3.500
+pick 3.500 3.500
+next
+pick 3.500 -3.500
+pick 3.500 -2.920
+next
+pick 3.500 2.920
+pick 3.500 3.500
+next
+pick -3.500 -3.500
+pick -2.920 -3.500
+next
+pick 2.920 -3.500
+pick 3.500 -3.500
+next
+pick -3.500 -3.500
+pick -3.500 -2.920
+next
+pick -3.500 2.920
+pick -3.500 3.500
+next
+done
+
+# 3. IPC-7351B Courtyard & Max Package Height (PACKAGE GEOMETRY / PLACE_BOUND_TOP)
+shape add rect
+setwindow form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass PLACE_BOUND_TOP
+setwindow pcb
+pick -4.130 -4.130
+pick 4.130 4.130
+done
+# Package Max Height = 0.900 mm | 3D STEP Model = C2040_LQFN-56_7x7_cleanroom.step
+save_as
+fillin "C2040_LQFN-56_7x7.dra"
+create symbol
+fillin "C2040_LQFN-56_7x7.psm"
