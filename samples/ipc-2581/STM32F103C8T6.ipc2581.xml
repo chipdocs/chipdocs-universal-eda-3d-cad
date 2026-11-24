@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IPC-2581 revision="C" xmlns="http://webstds.ipc.org/2581">
+  <Content roleRef="Owner">
+    <StepRef name="C8734_LQFP-48_7x7"/>
+    <LayerRef name="TOP_COPPER"/>
+    <LayerRef name="TOP_PASTE"/>
+    <LayerRef name="TOP_SILKSCREEN"/>
+    <LayerRef name="TOP_COURTYARD"/>
+    <DictionaryStandard units="MILLIMETER">
+      <EntryStandard id="PRIM_R_1">
+        <RectCenter width="1.200" height="0.300"/>
+      </EntryStandard>
+      <EntryStandard id="PRIM_R_2">
+        <RectCenter width="0.300" height="1.200"/>
+      </EntryStandard>
+    </DictionaryStandard>
+  </Content>
+  <LogisticHeader>
+    <Role id="Owner" roleFunction="DESIGN"/>
+    <Enterprise id="CHIPDOCS" code="CHIPDOCS.ORG" name="ChipDocs Clean-Room Multi-CAD Engine"/>
+  </LogisticHeader>
+  <HistoryRecord number="1" origination="2026-11-04T12:00:00Z" software="ChipDocs Clean-Room IPC-2581C Compiler v2.6" lastChange="2026-11-04T12:00:00Z"/>
+  <Ecad name="STM32F103C8T6">
+    <CadHeader units="MILLIMETER"/>
+    <CadData>
+      <Layer name="TOP_COPPER" layerFunction="CONDUCTOR" side="TOP" polarity="POSITIVE"/>
+      <Layer name="TOP_PASTE" layerFunction="PASTEMASK" side="TOP" polarity="POSITIVE"/>
+      <Layer name="TOP_SILKSCREEN" layerFunction="SILKSCREEN" side="TOP" polarity="POSITIVE"/>
+      <Layer name="TOP_COURTYARD" layerFunction="COURTYARD" side="TOP" polarity="POSITIVE"/>
+      <Step name="C8734_LQFP-48_7x7">
+        <PadstackDef name="PS_1_SMD">
+          <PadstackPadDef layerRef="TOP_COPPER" padUse="REGULAR">
+            <Location x="0.000" y="0.000"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </PadstackPadDef>
+        </PadstackDef>
+        <PadstackDef name="PS_2_SMD">
+          <PadstackPadDef layerRef="TOP_COPPER" padUse="REGULAR">
+            <Location x="0.000" y="0.000"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </PadstackPadDef>
+        </PadstackDef>
+        <Package name="C8734_LQFP-48_7x7" type="LQFP" pinOne="1" height="1.600">
+          <Outline>
+            <Polygon>
+              <PolyBegin x="-5.100" y="-5.100"/>
+              <PolyStepSegment x="5.100" y="-5.100"/>
+              <PolyStepSegment x="5.100" y="5.100"/>
+              <PolyStepSegment x="-5.100" y="5.100"/>
+              <PolyStepSegment x="-5.100" y="-5.100"/>
+            </Polygon>
+          </Outline>
+          <PickupPoint x="0.000" y="0.000"/>
+          <SilkScreen>
+            <Outline>
+              <Polygon>
+                <PolyBegin x="-3.500" y="-3.500"/>
+                <PolyStepSegment x="3.500" y="-3.500"/>
+                <PolyStepSegment x="3.500" y="3.500"/>
+                <PolyStepSegment x="-3.500" y="3.500"/>
+                <PolyStepSegment x="-3.500" y="-3.500"/>
+              </Polygon>
+            </Outline>
+          </SilkScreen>
+          <LandPattern>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="-4.250" y="2.750"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="1"/>
+            </Pad>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="-4.250" y="2.250"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="2"/>
+            </Pad>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="-4.250" y="1.750"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="3"/>
+            </Pad>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="-4.250" y="1.250"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="4"/>
+            </Pad>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="-4.250" y="0.750"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="5"/>
+            </Pad>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="-4.250" y="0.250"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="6"/>
+            </Pad>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="-4.250" y="-0.250"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="7"/>
+            </Pad>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="-4.250" y="-0.750"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="8"/>
+            </Pad>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="-4.250" y="-1.250"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="9"/>
+            </Pad>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="-4.250" y="-1.750"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="10"/>
+            </Pad>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="-4.250" y="-2.250"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="11"/>
+            </Pad>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="-4.250" y="-2.750"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="12"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="-2.750" y="-4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="13"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="-2.250" y="-4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="14"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="-1.750" y="-4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="15"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="-1.250" y="-4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="16"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="-0.750" y="-4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="17"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="-0.250" y="-4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="18"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="0.250" y="-4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="19"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="0.750" y="-4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="20"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="1.250" y="-4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="21"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="1.750" y="-4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="22"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="2.250" y="-4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="23"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="2.750" y="-4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="24"/>
+            </Pad>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="4.250" y="-2.750"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="25"/>
+            </Pad>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="4.250" y="-2.250"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="26"/>
+            </Pad>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="4.250" y="-1.750"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="27"/>
+            </Pad>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="4.250" y="-1.250"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="28"/>
+            </Pad>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="4.250" y="-0.750"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="29"/>
+            </Pad>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="4.250" y="-0.250"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="30"/>
+            </Pad>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="4.250" y="0.250"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="31"/>
+            </Pad>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="4.250" y="0.750"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="32"/>
+            </Pad>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="4.250" y="1.250"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="33"/>
+            </Pad>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="4.250" y="1.750"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="34"/>
+            </Pad>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="4.250" y="2.250"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="35"/>
+            </Pad>
+            <Pad padstackDefRef="PS_1_SMD">
+              <Location x="4.250" y="2.750"/>
+              <StandardPrimitiveRef id="PRIM_R_1"/>
+              <PinRef pin="36"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="2.750" y="4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="37"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="2.250" y="4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="38"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="1.750" y="4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="39"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="1.250" y="4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="40"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="0.750" y="4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="41"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="0.250" y="4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="42"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="-0.250" y="4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="43"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="-0.750" y="4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="44"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="-1.250" y="4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="45"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="-1.750" y="4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="46"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="-2.250" y="4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="47"/>
+            </Pad>
+            <Pad padstackDefRef="PS_2_SMD">
+              <Location x="-2.750" y="4.250"/>
+              <StandardPrimitiveRef id="PRIM_R_2"/>
+              <PinRef pin="48"/>
+            </Pad>
+          </LandPattern>
+          <Pin number="1" name="VBAT" cadPin="SURFACE" electricalType="Power_In">
+            <Location x="-4.250" y="2.750"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="2" name="PC13" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="-4.250" y="2.250"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="3" name="PC14-OSC32_IN" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="-4.250" y="1.750"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="4" name="PC15-OSC32_OUT" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="-4.250" y="1.250"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="5" name="PD0-OSC_IN" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="-4.250" y="0.750"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="6" name="PD1-OSC_OUT" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="-4.250" y="0.250"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="7" name="NRST" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="-4.250" y="-0.250"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="8" name="VSSA" cadPin="SURFACE" electricalType="GND">
+            <Location x="-4.250" y="-0.750"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="9" name="VDDA" cadPin="SURFACE" electricalType="Power_In">
+            <Location x="-4.250" y="-1.250"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="10" name="PA0-WKUP" cadPin="SURFACE" electricalType="Analog">
+            <Location x="-4.250" y="-1.750"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="11" name="PA1" cadPin="SURFACE" electricalType="Analog">
+            <Location x="-4.250" y="-2.250"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="12" name="PA2" cadPin="SURFACE" electricalType="Analog">
+            <Location x="-4.250" y="-2.750"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="13" name="PA3" cadPin="SURFACE" electricalType="Analog">
+            <Location x="-2.750" y="-4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+          <Pin number="14" name="PA4" cadPin="SURFACE" electricalType="Analog">
+            <Location x="-2.250" y="-4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+          <Pin number="15" name="PA5" cadPin="SURFACE" electricalType="Analog">
+            <Location x="-1.750" y="-4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+          <Pin number="16" name="PA6" cadPin="SURFACE" electricalType="Analog">
+            <Location x="-1.250" y="-4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+          <Pin number="17" name="PA7" cadPin="SURFACE" electricalType="Analog">
+            <Location x="-0.750" y="-4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+          <Pin number="18" name="PB0" cadPin="SURFACE" electricalType="Analog">
+            <Location x="-0.250" y="-4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+          <Pin number="19" name="PB1" cadPin="SURFACE" electricalType="Analog">
+            <Location x="0.250" y="-4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+          <Pin number="20" name="PB2/BOOT1" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="0.750" y="-4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+          <Pin number="21" name="PB10" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="1.250" y="-4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+          <Pin number="22" name="PB11" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="1.750" y="-4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+          <Pin number="23" name="VSS_1" cadPin="SURFACE" electricalType="GND">
+            <Location x="2.250" y="-4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+          <Pin number="24" name="VDD_1" cadPin="SURFACE" electricalType="Power_In">
+            <Location x="2.750" y="-4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+          <Pin number="25" name="PB12" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="4.250" y="-2.750"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="26" name="PB13" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="4.250" y="-2.250"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="27" name="PB14" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="4.250" y="-1.750"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="28" name="PB15" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="4.250" y="-1.250"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="29" name="PA8" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="4.250" y="-0.750"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="30" name="PA9" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="4.250" y="-0.250"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="31" name="PA10" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="4.250" y="0.250"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="32" name="PA11" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="4.250" y="0.750"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="33" name="PA12" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="4.250" y="1.250"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="34" name="PA13" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="4.250" y="1.750"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="35" name="VSS_2" cadPin="SURFACE" electricalType="GND">
+            <Location x="4.250" y="2.250"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="36" name="VDD_2" cadPin="SURFACE" electricalType="Power_In">
+            <Location x="4.250" y="2.750"/>
+            <StandardPrimitiveRef id="PRIM_R_1"/>
+          </Pin>
+          <Pin number="37" name="PA14" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="2.750" y="4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+          <Pin number="38" name="PA15" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="2.250" y="4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+          <Pin number="39" name="PB3" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="1.750" y="4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+          <Pin number="40" name="PB4" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="1.250" y="4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+          <Pin number="41" name="PB5" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="0.750" y="4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+          <Pin number="42" name="PB6" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="0.250" y="4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+          <Pin number="43" name="PB7" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="-0.250" y="4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+          <Pin number="44" name="BOOT0" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="-0.750" y="4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+          <Pin number="45" name="PB8" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="-1.250" y="4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+          <Pin number="46" name="PB9" cadPin="SURFACE" electricalType="Digital_IO">
+            <Location x="-1.750" y="4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+          <Pin number="47" name="VSS_3" cadPin="SURFACE" electricalType="GND">
+            <Location x="-2.250" y="4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+          <Pin number="48" name="VDD_3" cadPin="SURFACE" electricalType="Power_In">
+            <Location x="-2.750" y="4.250"/>
+            <StandardPrimitiveRef id="PRIM_R_2"/>
+          </Pin>
+        </Package>
+      </Step>
+    </CadData>
+  </Ecad>
+</IPC-2581>
