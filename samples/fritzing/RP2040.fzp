@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="0.9.10" moduleId="chipdocs_RP2040_C2040_LQFN-56_7x7">
+  <version>2.6</version>
+  <author>ChipDocs.org Clean-Room Multi-CAD Compiler</author>
+  <title>RP2040 (C2040_LQFN-56_7x7)</title>
+  <label>U</label>
+  <date>2026-11-04</date>
+  <tags>
+    <tag>RP2040</tag>
+    <tag>C2040_LQFN-56_7x7</tag>
+    <tag>QFN</tag>
+  </tags>
+  <properties>
+    <property name="family">QFN</property>
+    <property name="package">C2040_LQFN-56_7x7</property>
+    <property name="part number">RP2040</property>
+    <property name="pins">57</property>
+  </properties>
+  <description>Clean-Room IPC-7351B &amp; IEEE-315 Component for RP2040 (C2040_LQFN-56_7x7)</description>
+  <views>
+    <iconView><layers image="schematic/symbol.svg"><layer layerId="icon"/></layers></iconView>
+    <breadboardView><layers image="schematic/symbol.svg"><layer layerId="breadboard"/></layers></breadboardView>
+    <schematicView><layers image="schematic/symbol.svg"><layer layerId="schematic"/></layers></schematicView>
+    <pcbView><layers image="pcb/footprint.svg"><layer layerId="copper1"/><layer layerId="silkscreen"/></layers></pcbView>
+  </views>
+  <connectors>
+    <connector id="connector0" type="male" name="IOVDD">
+      <description>Primary positive power supply input (IOVDD) operating in the 3.3V IOVDD (Max 3.63V) domain (Max rating: 3.63V).</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector0pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector0pin" terminalId="connector0terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector0pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector1" type="male" name="GPIO0">
+      <description>Signal terminal GPIO0 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI0_RX, UART0_TX, I2C0_SDA, PWM0_A, PIO0, PIO1. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector1pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector1pin" terminalId="connector1terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector1pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector2" type="male" name="GPIO1">
+      <description>Signal terminal GPIO1 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI0_CSn, UART0_RX, I2C0_SCL, PWM0_B, PIO0, PIO1. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector2pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector2pin" terminalId="connector2terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector2pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector3" type="male" name="GPIO2">
+      <description>Signal terminal GPIO2 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI0_SCK, UART0_CTS, I2C1_SDA, PWM1_A, PIO0, PIO1. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector3pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector3pin" terminalId="connector3terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector3pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector4" type="male" name="GPIO3">
+      <description>Signal terminal GPIO3 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI0_TX, UART0_RTS, I2C1_SCL, PWM1_B, PIO0, PIO1. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector4pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector4pin" terminalId="connector4terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector4pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector5" type="male" name="GPIO4">
+      <description>Signal terminal GPIO4 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI0_RX, UART1_TX, I2C0_SDA, PWM2_A, PIO0, PIO1. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector5pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector5pin" terminalId="connector5terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector5pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector6" type="male" name="GPIO5">
+      <description>Signal terminal GPIO5 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI0_CSn, UART1_RX, I2C0_SCL, PWM2_B, PIO0, PIO1. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector6pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector6pin" terminalId="connector6terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector6pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector7" type="male" name="GPIO6">
+      <description>Signal terminal GPIO6 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI0_SCK, UART1_CTS, I2C1_SDA, PWM3_A, PIO0, PIO1. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector7pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector7pin" terminalId="connector7terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector7pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector8" type="male" name="GPIO7">
+      <description>Signal terminal GPIO7 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI0_TX, UART1_RTS, I2C1_SCL, PWM3_B, PIO0, PIO1. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector8pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector8pin" terminalId="connector8terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector8pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector9" type="male" name="IOVDD">
+      <description>Primary positive power supply input (IOVDD) operating in the 3.3V IOVDD (Max 3.63V) domain (Max rating: 3.63V).</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector9pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector9pin" terminalId="connector9terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector9pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector10" type="male" name="GPIO8">
+      <description>Signal terminal GPIO8 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI1_RX, UART1_TX, I2C0_SDA, PWM4_A, PIO0, PIO1. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector10pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector10pin" terminalId="connector10terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector10pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector11" type="male" name="GPIO9">
+      <description>Signal terminal GPIO9 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI1_CSn, UART1_RX, I2C0_SCL, PWM4_B, PIO0, PIO1. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector11pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector11pin" terminalId="connector11terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector11pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector12" type="male" name="GPIO10">
+      <description>Signal terminal GPIO10 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI1_SCK, UART1_CTS, I2C1_SDA, PWM5_A, PIO0, PIO1. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector12pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector12pin" terminalId="connector12terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector12pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector13" type="male" name="GPIO11">
+      <description>Signal terminal GPIO11 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI1_TX, UART1_RTS, I2C1_SCL, PWM5_B, PIO0, PIO1. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector13pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector13pin" terminalId="connector13terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector13pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector14" type="male" name="GPIO12">
+      <description>Signal terminal GPIO12 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI1_RX, UART0_TX, I2C0_SDA, PWM6_A, PIO0, PIO1. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector14pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector14pin" terminalId="connector14terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector14pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector15" type="male" name="GPIO13">
+      <description>Signal terminal GPIO13 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI1_CSn, UART0_RX, I2C0_SCL, PWM6_B, PIO0, PIO1. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector15pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector15pin" terminalId="connector15terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector15pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector16" type="male" name="GPIO14">
+      <description>Signal terminal GPIO14 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI1_SCK, UART0_CTS, I2C1_SDA, PWM7_A, PIO0, PIO1. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector16pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector16pin" terminalId="connector16terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector16pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector17" type="male" name="GPIO15">
+      <description>Signal terminal GPIO15 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI1_TX, UART0_RTS, I2C1_SCL, PWM7_B, PIO0, PIO1. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector17pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector17pin" terminalId="connector17terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector17pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector18" type="male" name="TESTEN">
+      <description>Signal terminal TESTEN (I, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: TESTEN. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector18pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector18pin" terminalId="connector18terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector18pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector19" type="male" name="XIN">
+      <description>Signal terminal XIN (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: XIN. Supported peripheral buses: RTC/CLK.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector19pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector19pin" terminalId="connector19terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector19pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector20" type="male" name="XOUT">
+      <description>Signal terminal XOUT (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: XOUT. Supported peripheral buses: RTC/CLK.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector20pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector20pin" terminalId="connector20terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector20pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector21" type="male" name="IOVDD">
+      <description>Primary positive power supply input (IOVDD) operating in the 3.3V IOVDD (Max 3.63V) domain (Max rating: 3.63V).</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector21pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector21pin" terminalId="connector21terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector21pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector22" type="male" name="DVDD">
+      <description>Primary positive power supply input (DVDD) operating in the 1.1V Core DVDD domain (Max rating: 1.21V).</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector22pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector22pin" terminalId="connector22terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector22pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector23" type="male" name="SWCLK">
+      <description>Signal terminal SWCLK (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SWCLK. Supported peripheral buses: SWD/JTAG.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector23pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector23pin" terminalId="connector23terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector23pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector24" type="male" name="SWD">
+      <description>Signal terminal SWD (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SWD. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector24pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector24pin" terminalId="connector24terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector24pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector25" type="male" name="RUN">
+      <description>Active-low hardware reset terminal (RUN): pulling this pin Low resets the processor core and peripherals.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector25pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector25pin" terminalId="connector25terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector25pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector26" type="male" name="GPIO16">
+      <description>Signal terminal GPIO16 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI0_RX, UART0_TX, I2C0_SDA, PWM0_A, PIO0, PIO1. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector26pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector26pin" terminalId="connector26terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector26pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector27" type="male" name="GPIO17">
+      <description>Signal terminal GPIO17 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI0_CSn, UART0_RX, I2C0_SCL, PWM0_B, PIO0, PIO1. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector27pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector27pin" terminalId="connector27terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector27pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector28" type="male" name="GPIO18">
+      <description>Signal terminal GPIO18 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI0_SCK, UART0_CTS, I2C1_SDA, PWM1_A, PIO0, PIO1. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector28pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector28pin" terminalId="connector28terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector28pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector29" type="male" name="GPIO19">
+      <description>Signal terminal GPIO19 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI0_TX, UART0_RTS, I2C1_SCL, PWM1_B, PIO0, PIO1. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector29pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector29pin" terminalId="connector29terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector29pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector30" type="male" name="GPIO20">
+      <description>Signal terminal GPIO20 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI0_RX, UART1_TX, I2C0_SDA, PWM2_A, CLOCK_GPIN0, PIO0. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector30pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector30pin" terminalId="connector30terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector30pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector31" type="male" name="GPIO21">
+      <description>Signal terminal GPIO21 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI0_CSn, UART1_RX, I2C0_SCL, PWM2_B, CLOCK_GPOUT0, PIO0. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector31pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector31pin" terminalId="connector31terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector31pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector32" type="male" name="IOVDD">
+      <description>Primary positive power supply input (IOVDD) operating in the 3.3V IOVDD (Max 3.63V) domain (Max rating: 3.63V).</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector32pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector32pin" terminalId="connector32terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector32pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector33" type="male" name="GPIO22">
+      <description>Signal terminal GPIO22 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI0_SCK, UART1_CTS, I2C1_SDA, PWM3_A, CLOCK_GPIN1, PIO0. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector33pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector33pin" terminalId="connector33terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector33pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector34" type="male" name="GPIO23">
+      <description>Signal terminal GPIO23 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI0_TX, UART1_RTS, I2C1_SCL, PWM3_B, CLOCK_GPOUT1, PIO0. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector34pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector34pin" terminalId="connector34terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector34pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector35" type="male" name="GPIO24">
+      <description>Signal terminal GPIO24 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI1_RX, UART1_TX, I2C0_SDA, PWM4_A, CLOCK_GPOUT2, PIO0. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector35pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector35pin" terminalId="connector35terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector35pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector36" type="male" name="GPIO25">
+      <description>Signal terminal GPIO25 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: SPI1_CSn, UART1_RX, I2C0_SCL, PWM4_B, CLOCK_GPOUT3, PIO0. Supported peripheral buses: PIO.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector36pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector36pin" terminalId="connector36terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector36pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector37" type="male" name="GPIO26_ADC0">
+      <description>Signal terminal GPIO26_ADC0 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: GPIO26_ADC0. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector37pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector37pin" terminalId="connector37terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector37pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector38" type="male" name="GPIO27_ADC1">
+      <description>Signal terminal GPIO27_ADC1 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: GPIO27_ADC1. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector38pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector38pin" terminalId="connector38terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector38pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector39" type="male" name="GPIO28_ADC2">
+      <description>Signal terminal GPIO28_ADC2 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: GPIO28_ADC2. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector39pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector39pin" terminalId="connector39terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector39pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector40" type="male" name="GPIO29_ADC3">
+      <description>Signal terminal GPIO29_ADC3 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: GPIO29_ADC3. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector40pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector40pin" terminalId="connector40terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector40pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector41" type="male" name="IOVDD">
+      <description>Primary positive power supply input (IOVDD) operating in the 3.3V IOVDD (Max 3.63V) domain (Max rating: 3.63V).</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector41pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector41pin" terminalId="connector41terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector41pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector42" type="male" name="ADC_AVDD">
+      <description>Primary positive power supply input (ADC_AVDD) operating in the 3.3V IOVDD (Max 3.63V) domain (Max rating: 3.63V).</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector42pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector42pin" terminalId="connector42terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector42pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector43" type="male" name="VREG_IN">
+      <description>Primary positive power supply input (VREG_IN) operating in the 3.3V IOVDD (Max 3.63V) domain (Max rating: 3.63V).</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector43pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector43pin" terminalId="connector43terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector43pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector44" type="male" name="VREG_VOUT">
+      <description>Regulated power output rail (VREG_VOUT) operating in the 3.3V IOVDD (Max 3.63V) domain (Max rating: 3.63V).</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector44pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector44pin" terminalId="connector44terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector44pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector45" type="male" name="USB_DM">
+      <description>Signal terminal USB_DM (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: USB_DM. Supported peripheral buses: USB.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector45pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector45pin" terminalId="connector45terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector45pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector46" type="male" name="USB_DP">
+      <description>Signal terminal USB_DP (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: USB_DP. Supported peripheral buses: USB.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector46pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector46pin" terminalId="connector46terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector46pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector47" type="male" name="USB_VDD">
+      <description>Primary positive power supply input (USB_VDD) operating in the 3.3V IOVDD (Max 3.63V) domain (Max rating: 3.63V).</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector47pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector47pin" terminalId="connector47terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector47pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector48" type="male" name="IOVDD">
+      <description>Primary positive power supply input (IOVDD) operating in the 3.3V IOVDD (Max 3.63V) domain (Max rating: 3.63V).</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector48pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector48pin" terminalId="connector48terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector48pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector49" type="male" name="DVDD">
+      <description>Primary positive power supply input (DVDD) operating in the 1.1V Core DVDD domain (Max rating: 1.21V).</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector49pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector49pin" terminalId="connector49terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector49pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector50" type="male" name="QSPI_SD3">
+      <description>Signal terminal QSPI_SD3 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: QSPI_SD3. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector50pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector50pin" terminalId="connector50terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector50pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector51" type="male" name="QSPI_SCLK">
+      <description>Signal terminal QSPI_SCLK (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: QSPI_SCLK. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector51pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector51pin" terminalId="connector51terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector51pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector52" type="male" name="QSPI_SD0">
+      <description>Signal terminal QSPI_SD0 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: QSPI_SD0. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector52pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector52pin" terminalId="connector52terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector52pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector53" type="male" name="QSPI_SD2">
+      <description>Signal terminal QSPI_SD2 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: QSPI_SD2. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector53pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector53pin" terminalId="connector53terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector53pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector54" type="male" name="QSPI_SD1">
+      <description>Signal terminal QSPI_SD1 (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: QSPI_SD1. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector54pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector54pin" terminalId="connector54terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector54pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector55" type="male" name="QSPI_SS">
+      <description>Signal terminal QSPI_SS (I/O, 3.3V IOVDD (Max 3.63V) domain). Multiplexed alternate functions: QSPI_SS. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector55pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector55pin" terminalId="connector55terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector55pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector56" type="male" name="GND">
+      <description>Bottom exposed die attach pad (GND) providing primary thermal conduction path to the PCB and low-inductance 0V ground return.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector56pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector56pin" terminalId="connector56terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector56pad"/></pcbView>
+      </views>
+    </connector>
+  </connectors>
+</module>
