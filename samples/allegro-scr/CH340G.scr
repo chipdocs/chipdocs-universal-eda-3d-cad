@@ -1,0 +1,235 @@
+# ChipDocs.org Clean-Room Cadence Allegro / OrCAD PCB Editor Footprint Script
+# Component: CH340G | Package: C14267_SOP-16 | Standard: IPC-7351B / JEDEC MS-012-AC
+# Usage: In Allegro PCB Editor Command Window -> replay C14267_SOP-16.scr
+version 17.4
+setwindow pcb
+new
+newdrawfillin "C14267_SOP-16.dra" "Package Symbol"
+prmed
+setwindow form.prmedit
+FORM prmedit units Millimeter
+FORM prmedit accuracy 3
+FORM prmedit width 27.46
+FORM prmedit height 30.40
+FORM prmedit x -13.73
+FORM prmedit y -15.20
+FORM prmedit done
+setwindow pcb
+
+# 1. Place IPC-7351B Electrical & Mechanical Pins
+add pin
+setwindow form.mini
+FORM mini pad_name smd_155x60
+FORM mini mechanical NO
+FORM mini next_pin_number 1
+FORM mini angle 0.00
+setwindow pcb
+pick -2.700 4.445
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_155x60
+FORM mini mechanical NO
+FORM mini next_pin_number 2
+FORM mini angle 0.00
+setwindow pcb
+pick -2.700 3.175
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_155x60
+FORM mini mechanical NO
+FORM mini next_pin_number 3
+FORM mini angle 0.00
+setwindow pcb
+pick -2.700 1.905
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_155x60
+FORM mini mechanical NO
+FORM mini next_pin_number 4
+FORM mini angle 0.00
+setwindow pcb
+pick -2.700 0.635
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_155x60
+FORM mini mechanical NO
+FORM mini next_pin_number 5
+FORM mini angle 0.00
+setwindow pcb
+pick -2.700 -0.635
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_155x60
+FORM mini mechanical NO
+FORM mini next_pin_number 6
+FORM mini angle 0.00
+setwindow pcb
+pick -2.700 -1.905
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_155x60
+FORM mini mechanical NO
+FORM mini next_pin_number 7
+FORM mini angle 0.00
+setwindow pcb
+pick -2.700 -3.175
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_155x60
+FORM mini mechanical NO
+FORM mini next_pin_number 8
+FORM mini angle 0.00
+setwindow pcb
+pick -2.700 -4.445
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_155x60
+FORM mini mechanical NO
+FORM mini next_pin_number 9
+FORM mini angle 0.00
+setwindow pcb
+pick 2.700 -4.445
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_155x60
+FORM mini mechanical NO
+FORM mini next_pin_number 10
+FORM mini angle 0.00
+setwindow pcb
+pick 2.700 -3.175
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_155x60
+FORM mini mechanical NO
+FORM mini next_pin_number 11
+FORM mini angle 0.00
+setwindow pcb
+pick 2.700 -1.905
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_155x60
+FORM mini mechanical NO
+FORM mini next_pin_number 12
+FORM mini angle 0.00
+setwindow pcb
+pick 2.700 -0.635
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_155x60
+FORM mini mechanical NO
+FORM mini next_pin_number 13
+FORM mini angle 0.00
+setwindow pcb
+pick 2.700 0.635
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_155x60
+FORM mini mechanical NO
+FORM mini next_pin_number 14
+FORM mini angle 0.00
+setwindow pcb
+pick 2.700 1.905
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_155x60
+FORM mini mechanical NO
+FORM mini next_pin_number 15
+FORM mini angle 0.00
+setwindow pcb
+pick 2.700 3.175
+done
+add pin
+setwindow form.mini
+FORM mini pad_name smd_155x60
+FORM mini mechanical NO
+FORM mini next_pin_number 16
+FORM mini angle 0.00
+setwindow pcb
+pick 2.700 4.445
+done
+
+# 2. Clipped Top Silkscreen (PACKAGE GEOMETRY / SILKSCREEN_TOP)
+add line
+setwindow form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.15
+setwindow pcb
+pick -1.705 4.950
+pick 1.705 4.950
+next
+pick 1.950 -3.925
+pick 1.950 -3.695
+next
+pick 1.950 -2.655
+pick 1.950 -2.425
+next
+pick 1.950 -1.385
+pick 1.950 -1.155
+next
+pick 1.950 -0.115
+pick 1.950 0.115
+next
+pick 1.950 1.155
+pick 1.950 1.385
+next
+pick 1.950 2.425
+pick 1.950 2.655
+next
+pick 1.950 3.695
+pick 1.950 3.925
+next
+pick -1.705 -4.950
+pick 1.705 -4.950
+next
+pick -1.950 -3.925
+pick -1.950 -3.695
+next
+pick -1.950 -2.655
+pick -1.950 -2.425
+next
+pick -1.950 -1.385
+pick -1.950 -1.155
+next
+pick -1.950 -0.115
+pick -1.950 0.115
+next
+pick -1.950 1.155
+pick -1.950 1.385
+next
+pick -1.950 2.425
+pick -1.950 2.655
+next
+pick -1.950 3.695
+pick -1.950 3.925
+next
+done
+
+# 3. IPC-7351B Courtyard & Max Package Height (PACKAGE GEOMETRY / PLACE_BOUND_TOP)
+shape add rect
+setwindow form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass PLACE_BOUND_TOP
+setwindow pcb
+pick -3.730 -5.200
+pick 3.730 5.200
+done
+# Package Max Height = 1.750 mm | 3D STEP Model = C14267_SOP-16_cleanroom.step
+save_as
+fillin "C14267_SOP-16.dra"
+create symbol
+fillin "C14267_SOP-16.psm"
