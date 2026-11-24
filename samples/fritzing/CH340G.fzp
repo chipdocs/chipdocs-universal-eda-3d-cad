@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="0.9.10" moduleId="chipdocs_CH340G_C14267_SOP-16">
+  <version>2.6</version>
+  <author>ChipDocs.org Clean-Room Multi-CAD Compiler</author>
+  <title>CH340G (C14267_SOP-16)</title>
+  <label>U</label>
+  <date>2026-11-04</date>
+  <tags>
+    <tag>CH340G</tag>
+    <tag>C14267_SOP-16</tag>
+    <tag>SOP</tag>
+  </tags>
+  <properties>
+    <property name="family">SOP</property>
+    <property name="package">C14267_SOP-16</property>
+    <property name="part number">CH340G</property>
+    <property name="pins">16</property>
+  </properties>
+  <description>Clean-Room IPC-7351B &amp; IEEE-315 Component for CH340G (C14267_SOP-16)</description>
+  <views>
+    <iconView><layers image="schematic/symbol.svg"><layer layerId="icon"/></layers></iconView>
+    <breadboardView><layers image="schematic/symbol.svg"><layer layerId="breadboard"/></layers></breadboardView>
+    <schematicView><layers image="schematic/symbol.svg"><layer layerId="schematic"/></layers></schematicView>
+    <pcbView><layers image="pcb/footprint.svg"><layer layerId="copper1"/><layer layerId="silkscreen"/></layers></pcbView>
+  </views>
+  <connectors>
+    <connector id="connector0" type="male" name="GND">
+      <description>Public Ground reference (connect directly to USB Shield/GND plane) (公共接地端 直接连到USB总线的地线 ，)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector0pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector0pin" terminalId="connector0terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector0pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector1" type="male" name="TXD">
+      <description>Asynchronous UART serial data output (TXD); cross-connect to the target MCU RXD pin.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector1pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector1pin" terminalId="connector1terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector1pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector2" type="male" name="RXD">
+      <description>Asynchronous UART serial data input (RXD) with built-in controllable pull-up and pull-down resistors.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector2pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector2pin" terminalId="connector2terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector2pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector3" type="male" name="V3">
+      <description>Internal 3.3V LDO regulator node: connect to VCC when powered at 3.3V; connect a 100nF decoupling capacitor to GND when powered at 5V.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector3pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector3pin" terminalId="connector3terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector3pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector4" type="male" name="UD+">
+      <description>USB Full-Speed Differential Data Plus (UD+ / D+, built-in 1.5kΩ pull-up) (直接连到USB总线的D+数据线 不要串联电阻 ，)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector4pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector4pin" terminalId="connector4terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector4pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector5" type="male" name="UD-">
+      <description>USB Full-Speed Differential Data Minus (UD- / D-) (直接连到USB总线的D 数据线 不要串联电阻 - ，)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector5pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector5pin" terminalId="connector5terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector5pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector6" type="male" name="XI">
+      <description>12 MHz crystal oscillator input (XI); requires a 22pF load capacitor to GND (internally clocked on CH340C).</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector6pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector6pin" terminalId="connector6terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector6pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector7" type="male" name="XO">
+      <description>CH340G: 12 MHz Crystal Output (XO); CH340C: Inverted Clock Output (CH340T/R/G 晶体振荡的输出端 ： ， 需外接12MHz晶体及振荡电容)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector7pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector7pin" terminalId="connector7terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector7pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector8" type="male" name="CTS#">
+      <description>MODEM hardware flow-control handshake input signal (active-low: CTS# / DSR# / RI# / DCD#).</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector8pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector8pin" terminalId="connector8terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector8pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector9" type="male" name="DSR#">
+      <description>MODEM hardware flow-control handshake input signal (active-low: CTS# / DSR# / RI# / DCD#).</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector9pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector9pin" terminalId="connector9terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector9pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector10" type="male" name="RI#">
+      <description>MODEM hardware flow-control handshake input signal (active-low: CTS# / DSR# / RI# / DCD#).</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector10pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector10pin" terminalId="connector10terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector10pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector11" type="male" name="DCD#">
+      <description>MODEM hardware flow-control handshake input signal (active-low: CTS# / DSR# / RI# / DCD#).</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector11pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector11pin" terminalId="connector11terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector11pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector12" type="male" name="DTR#">
+      <description>MODEM hardware flow-control output signal (DTR# / RTS# active-low); commonly used for ESP32/Arduino auto-reset/bootloader entry.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector12pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector12pin" terminalId="connector12terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector12pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector13" type="male" name="RTS#">
+      <description>MODEM hardware flow-control output signal (DTR# / RTS# active-low); commonly used for ESP32/Arduino auto-reset/bootloader entry.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector13pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector13pin" terminalId="connector13terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector13pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector14" type="male" name="R232">
+      <description>Auxiliary RS232 interface enable (high = enable internal inverter) (CH340T/R/G/C 辅助RS232使能 ： ， 高电平有效 内置下拉 ，)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector14pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector14pin" terminalId="connector14terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector14pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector15" type="male" name="VCC">
+      <description>Main positive power supply input (3.3V or 5.0V) (正电源输入端 ，需要外接0 .1uF 电源退耦电容)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector15pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector15pin" terminalId="connector15terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector15pad"/></pcbView>
+      </views>
+    </connector>
+  </connectors>
+</module>
