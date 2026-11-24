@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="0.9.10" moduleId="chipdocs_STM32F103C8T6_C8734_LQFP-48_7x7">
+  <version>2.6</version>
+  <author>ChipDocs.org Clean-Room Multi-CAD Compiler</author>
+  <title>STM32F103C8T6 (C8734_LQFP-48_7x7)</title>
+  <label>U</label>
+  <date>2026-11-04</date>
+  <tags>
+    <tag>STM32F103C8T6</tag>
+    <tag>C8734_LQFP-48_7x7</tag>
+    <tag>LQFP</tag>
+  </tags>
+  <properties>
+    <property name="family">LQFP</property>
+    <property name="package">C8734_LQFP-48_7x7</property>
+    <property name="part number">STM32F103C8T6</property>
+    <property name="pins">48</property>
+  </properties>
+  <description>Clean-Room IPC-7351B &amp; IEEE-315 Component for STM32F103C8T6 (C8734_LQFP-48_7x7)</description>
+  <views>
+    <iconView><layers image="schematic/symbol.svg"><layer layerId="icon"/></layers></iconView>
+    <breadboardView><layers image="schematic/symbol.svg"><layer layerId="breadboard"/></layers></breadboardView>
+    <schematicView><layers image="schematic/symbol.svg"><layer layerId="schematic"/></layers></schematicView>
+    <pcbView><layers image="pcb/footprint.svg"><layer layerId="copper1"/><layer layerId="silkscreen"/></layers></pcbView>
+  </views>
+  <connectors>
+    <connector id="connector0" type="male" name="VBAT">
+      <description>Backup power supply for RTC and backup registers (1.8V ~ 3.6V)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector0pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector0pin" terminalId="connector0terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector0pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector1" type="male" name="PC13">
+      <description>GPIO Port C13 / Tamper / RTC out (Max 3mA sink, 2MHz)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector1pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector1pin" terminalId="connector1terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector1pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector2" type="male" name="PC14-OSC32_IN">
+      <description>32.768 kHz LSE crystal oscillator input / GPIO PC14</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector2pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector2pin" terminalId="connector2terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector2pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector3" type="male" name="PC15-OSC32_OUT">
+      <description>32.768 kHz LSE crystal oscillator output / GPIO PC15</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector3pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector3pin" terminalId="connector3terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector3pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector4" type="male" name="PD0-OSC_IN">
+      <description>4~16 MHz HSE main crystal oscillator input</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector4pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector4pin" terminalId="connector4terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector4pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector5" type="male" name="PD1-OSC_OUT">
+      <description>4~16 MHz HSE main crystal oscillator output</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector5pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector5pin" terminalId="connector5terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector5pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector6" type="male" name="NRST">
+      <description>Active-low bidirectional system reset with internal ~40kΩ pull-up</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector6pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector6pin" terminalId="connector6terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector6pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector7" type="male" name="VSSA">
+      <description>Analog ground reference for ADC and RC oscillators</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector7pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector7pin" terminalId="connector7terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector7pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector8" type="male" name="VDDA">
+      <description>Analog power supply for ADC and reset blocks (2.0V ~ 3.6V)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector8pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector8pin" terminalId="connector8terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector8pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector9" type="male" name="PA0-WKUP">
+      <description>Wakeup pin / 12-bit ADC12_IN0 / TIM2_CH1 / USART2_CTS</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector9pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector9pin" terminalId="connector9terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector9pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector10" type="male" name="PA1">
+      <description>12-bit ADC12_IN1 / TIM2_CH2 / USART2_RTS</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector10pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector10pin" terminalId="connector10terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector10pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector11" type="male" name="PA2">
+      <description>USART2_TX / 12-bit ADC12_IN2 / TIM2_CH3</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector11pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector11pin" terminalId="connector11terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector11pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector12" type="male" name="PA3">
+      <description>USART2_RX / 12-bit ADC12_IN3 / TIM2_CH4</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector12pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector12pin" terminalId="connector12terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector12pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector13" type="male" name="PA4">
+      <description>SPI1_NSS / 12-bit ADC12_IN4 / USART2_CK</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector13pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector13pin" terminalId="connector13terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector13pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector14" type="male" name="PA5">
+      <description>SPI1_SCK master/slave clock / 12-bit ADC12_IN5</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector14pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector14pin" terminalId="connector14terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector14pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector15" type="male" name="PA6">
+      <description>SPI1_MISO / 12-bit ADC12_IN6 / TIM3_CH1</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector15pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector15pin" terminalId="connector15terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector15pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector16" type="male" name="PA7">
+      <description>SPI1_MOSI / 12-bit ADC12_IN7 / TIM3_CH2</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector16pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector16pin" terminalId="connector16terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector16pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector17" type="male" name="PB0">
+      <description>12-bit ADC12_IN8 / TIM3_CH3 PWM</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector17pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector17pin" terminalId="connector17terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector17pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector18" type="male" name="PB1">
+      <description>12-bit ADC12_IN9 / TIM3_CH4 PWM</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector18pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector18pin" terminalId="connector18terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector18pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector19" type="male" name="PB2/BOOT1">
+      <description>Boot mode configuration input BOOT1 / 5V-tolerant GPIO PB2</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector19pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector19pin" terminalId="connector19terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector19pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector20" type="male" name="PB10">
+      <description>I2C2_SCL / USART3_TX (5V-tolerant FT)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector20pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector20pin" terminalId="connector20terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector20pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector21" type="male" name="PB11">
+      <description>I2C2_SDA / USART3_RX (5V-tolerant FT)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector21pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector21pin" terminalId="connector21terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector21pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector22" type="male" name="VSS_1">
+      <description>Digital ground reference 1</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector22pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector22pin" terminalId="connector22terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector22pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector23" type="male" name="VDD_1">
+      <description>Digital I/O and internal regulator supply 1 (2.0V ~ 3.6V)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector23pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector23pin" terminalId="connector23terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector23pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector24" type="male" name="PB12">
+      <description>SPI2_NSS / TIM1_BKIN (5V-tolerant FT)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector24pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector24pin" terminalId="connector24terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector24pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector25" type="male" name="PB13">
+      <description>SPI2_SCK / TIM1_CH1N complementary PWM (5V-tolerant FT)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector25pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector25pin" terminalId="connector25terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector25pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector26" type="male" name="PB14">
+      <description>SPI2_MISO / TIM1_CH2N complementary PWM (5V-tolerant FT)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector26pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector26pin" terminalId="connector26terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector26pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector27" type="male" name="PB15">
+      <description>SPI2_MOSI / TIM1_CH3N complementary PWM (5V-tolerant FT)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector27pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector27pin" terminalId="connector27terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector27pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector28" type="male" name="PA8">
+      <description>Master Clock Output (MCO) / TIM1_CH1 PWM (5V-tolerant FT)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector28pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector28pin" terminalId="connector28terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector28pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector29" type="male" name="PA9">
+      <description>USART1_TX (System Bootloader UART TX) / TIM1_CH2 (5V-tolerant FT)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector29pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector29pin" terminalId="connector29terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector29pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector30" type="male" name="PA10">
+      <description>USART1_RX (System Bootloader UART RX) / TIM1_CH3 (5V-tolerant FT)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector30pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector30pin" terminalId="connector30terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector30pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector31" type="male" name="PA11">
+      <description>USB Full-Speed D- (USB_DM) / CAN_RX / TIM1_CH4</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector31pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector31pin" terminalId="connector31terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector31pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector32" type="male" name="PA12">
+      <description>USB Full-Speed D+ (USB_DP, requires 1.5kΩ pull-up to 3.3V) / CAN_TX</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector32pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector32pin" terminalId="connector32terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector32pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector33" type="male" name="PA13">
+      <description>Serial Wire Debug Data I/O (SWDIO) / JTMS (internal pull-up at reset)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector33pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector33pin" terminalId="connector33terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector33pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector34" type="male" name="VSS_2">
+      <description>Digital ground reference 2</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector34pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector34pin" terminalId="connector34terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector34pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector35" type="male" name="VDD_2">
+      <description>Digital I/O supply 2 (2.0V ~ 3.6V)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector35pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector35pin" terminalId="connector35terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector35pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector36" type="male" name="PA14">
+      <description>Serial Wire Debug Clock (SWCLK) / JTCK (internal pull-down at reset)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector36pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector36pin" terminalId="connector36terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector36pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector37" type="male" name="PA15">
+      <description>JTAG JTDI / SPI1_NSS remap (5V-tolerant FT)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector37pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector37pin" terminalId="connector37terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector37pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector38" type="male" name="PB3">
+      <description>JTAG JTDO / SWO trace / SPI1_SCK remap (5V-tolerant FT)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector38pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector38pin" terminalId="connector38terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector38pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector39" type="male" name="PB4">
+      <description>JTAG NJTRST / SPI1_MISO remap / TIM3_CH1 (5V-tolerant FT)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector39pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector39pin" terminalId="connector39terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector39pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector40" type="male" name="PB5">
+      <description>SPI1_MOSI remap / I2C1_SMBA / TIM3_CH2</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector40pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector40pin" terminalId="connector40terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector40pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector41" type="male" name="PB6">
+      <description>I2C1_SCL / TIM4_CH1 / USART1_TX remap (5V-tolerant FT)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector41pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector41pin" terminalId="connector41terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector41pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector42" type="male" name="PB7">
+      <description>I2C1_SDA / TIM4_CH2 / USART1_RX remap (5V-tolerant FT)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector42pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector42pin" terminalId="connector42terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector42pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector43" type="male" name="BOOT0">
+      <description>Boot memory selection input (0 = Main Flash, 1 = System Bootloader/SRAM)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector43pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector43pin" terminalId="connector43terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector43pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector44" type="male" name="PB8">
+      <description>TIM4_CH3 / I2C1_SCL remap / CAN_RX remap (5V-tolerant FT)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector44pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector44pin" terminalId="connector44terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector44pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector45" type="male" name="PB9">
+      <description>TIM4_CH4 / I2C1_SDA remap / CAN_TX remap (5V-tolerant FT)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector45pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector45pin" terminalId="connector45terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector45pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector46" type="male" name="VSS_3">
+      <description>Digital ground reference 3</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector46pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector46pin" terminalId="connector46terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector46pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector47" type="male" name="VDD_3">
+      <description>Digital I/O supply 3 (2.0V ~ 3.6V)</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector47pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector47pin" terminalId="connector47terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector47pad"/></pcbView>
+      </views>
+    </connector>
+  </connectors>
+</module>
