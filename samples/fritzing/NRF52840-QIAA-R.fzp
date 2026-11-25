@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="0.9.10" moduleId="chipdocs_NRF52840-QIAA-R_C190794_AQFN-73-EP_7x7">
+  <version>2.6</version>
+  <author>ChipDocs.org Clean-Room Multi-CAD Compiler</author>
+  <title>NRF52840-QIAA-R (C190794_AQFN-73-EP_7x7)</title>
+  <label>U</label>
+  <date>2026-11-04</date>
+  <tags>
+    <tag>NRF52840-QIAA-R</tag>
+    <tag>C190794_AQFN-73-EP_7x7</tag>
+    <tag>QFN</tag>
+  </tags>
+  <properties>
+    <property name="family">QFN</property>
+    <property name="package">C190794_AQFN-73-EP_7x7</property>
+    <property name="part number">NRF52840-QIAA-R</property>
+    <property name="pins">73</property>
+  </properties>
+  <description>Clean-Room IPC-7351B &amp; IEEE-315 Component for NRF52840-QIAA-R (C190794_AQFN-73-EP_7x7)</description>
+  <views>
+    <iconView><layers image="schematic/symbol.svg"><layer layerId="icon"/></layers></iconView>
+    <breadboardView><layers image="schematic/symbol.svg"><layer layerId="breadboard"/></layers></breadboardView>
+    <schematicView><layers image="schematic/symbol.svg"><layer layerId="schematic"/></layers></schematicView>
+    <pcbView><layers image="pcb/footprint.svg"><layer layerId="copper1"/><layer layerId="silkscreen"/></layers></pcbView>
+  </views>
+  <connectors>
+    <connector id="connector0" type="male" name="P1">
+      <description>Signal terminal P1 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P1. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector0pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector0pin" terminalId="connector0terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector0pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector1" type="male" name="P2">
+      <description>Signal terminal P2 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P2. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector1pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector1pin" terminalId="connector1terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector1pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector2" type="male" name="P3">
+      <description>Signal terminal P3 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P3. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector2pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector2pin" terminalId="connector2terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector2pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector3" type="male" name="P4">
+      <description>Signal terminal P4 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P4. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector3pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector3pin" terminalId="connector3terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector3pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector4" type="male" name="P5">
+      <description>Signal terminal P5 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P5. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector4pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector4pin" terminalId="connector4terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector4pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector5" type="male" name="P6">
+      <description>Signal terminal P6 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P6. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector5pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector5pin" terminalId="connector5terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector5pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector6" type="male" name="P7">
+      <description>Signal terminal P7 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P7. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector6pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector6pin" terminalId="connector6terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector6pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector7" type="male" name="P8">
+      <description>Signal terminal P8 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P8. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector7pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector7pin" terminalId="connector7terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector7pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector8" type="male" name="P9">
+      <description>Signal terminal P9 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P9. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector8pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector8pin" terminalId="connector8terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector8pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector9" type="male" name="P10">
+      <description>Signal terminal P10 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P10. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector9pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector9pin" terminalId="connector9terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector9pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector10" type="male" name="P11">
+      <description>Signal terminal P11 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P11. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector10pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector10pin" terminalId="connector10terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector10pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector11" type="male" name="P12">
+      <description>Signal terminal P12 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P12. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector11pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector11pin" terminalId="connector11terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector11pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector12" type="male" name="P13">
+      <description>Signal terminal P13 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P13. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector12pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector12pin" terminalId="connector12terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector12pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector13" type="male" name="P14">
+      <description>Signal terminal P14 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P14. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector13pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector13pin" terminalId="connector13terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector13pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector14" type="male" name="P15">
+      <description>Signal terminal P15 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P15. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector14pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector14pin" terminalId="connector14terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector14pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector15" type="male" name="P16">
+      <description>Signal terminal P16 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P16. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector15pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector15pin" terminalId="connector15terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector15pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector16" type="male" name="P17">
+      <description>Signal terminal P17 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P17. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector16pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector16pin" terminalId="connector16terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector16pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector17" type="male" name="P18">
+      <description>Signal terminal P18 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P18. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector17pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector17pin" terminalId="connector17terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector17pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector18" type="male" name="P19">
+      <description>Signal terminal P19 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P19. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector18pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector18pin" terminalId="connector18terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector18pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector19" type="male" name="P20">
+      <description>Signal terminal P20 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P20. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector19pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector19pin" terminalId="connector19terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector19pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector20" type="male" name="P21">
+      <description>Signal terminal P21 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P21. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector20pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector20pin" terminalId="connector20terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector20pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector21" type="male" name="P22">
+      <description>Signal terminal P22 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P22. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector21pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector21pin" terminalId="connector21terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector21pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector22" type="male" name="P23">
+      <description>Signal terminal P23 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P23. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector22pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector22pin" terminalId="connector22terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector22pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector23" type="male" name="P24">
+      <description>Signal terminal P24 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P24. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector23pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector23pin" terminalId="connector23terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector23pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector24" type="male" name="P25">
+      <description>Signal terminal P25 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P25. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector24pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector24pin" terminalId="connector24terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector24pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector25" type="male" name="P26">
+      <description>Signal terminal P26 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P26. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector25pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector25pin" terminalId="connector25terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector25pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector26" type="male" name="P27">
+      <description>Signal terminal P27 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P27. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector26pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector26pin" terminalId="connector26terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector26pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector27" type="male" name="P28">
+      <description>Signal terminal P28 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P28. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector27pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector27pin" terminalId="connector27terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector27pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector28" type="male" name="P29">
+      <description>Signal terminal P29 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P29. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector28pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector28pin" terminalId="connector28terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector28pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector29" type="male" name="P30">
+      <description>Signal terminal P30 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P30. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector29pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector29pin" terminalId="connector29terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector29pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector30" type="male" name="P31">
+      <description>Signal terminal P31 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P31. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector30pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector30pin" terminalId="connector30terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector30pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector31" type="male" name="P32">
+      <description>Signal terminal P32 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P32. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector31pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector31pin" terminalId="connector31terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector31pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector32" type="male" name="P33">
+      <description>Signal terminal P33 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P33. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector32pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector32pin" terminalId="connector32terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector32pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector33" type="male" name="P34">
+      <description>Signal terminal P34 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P34. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector33pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector33pin" terminalId="connector33terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector33pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector34" type="male" name="P35">
+      <description>Signal terminal P35 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P35. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector34pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector34pin" terminalId="connector34terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector34pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector35" type="male" name="P36">
+      <description>Signal terminal P36 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P36. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector35pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector35pin" terminalId="connector35terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector35pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector36" type="male" name="P37">
+      <description>Signal terminal P37 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P37. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector36pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector36pin" terminalId="connector36terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector36pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector37" type="male" name="P38">
+      <description>Signal terminal P38 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P38. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector37pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector37pin" terminalId="connector37terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector37pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector38" type="male" name="P39">
+      <description>Signal terminal P39 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P39. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector38pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector38pin" terminalId="connector38terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector38pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector39" type="male" name="P40">
+      <description>Signal terminal P40 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P40. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector39pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector39pin" terminalId="connector39terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector39pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector40" type="male" name="P41">
+      <description>Signal terminal P41 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P41. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector40pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector40pin" terminalId="connector40terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector40pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector41" type="male" name="P42">
+      <description>Signal terminal P42 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P42. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector41pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector41pin" terminalId="connector41terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector41pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector42" type="male" name="P43">
+      <description>Signal terminal P43 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P43. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector42pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector42pin" terminalId="connector42terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector42pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector43" type="male" name="P44">
+      <description>Signal terminal P44 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P44. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector43pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector43pin" terminalId="connector43terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector43pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector44" type="male" name="P45">
+      <description>Signal terminal P45 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P45. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector44pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector44pin" terminalId="connector44terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector44pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector45" type="male" name="P46">
+      <description>Signal terminal P46 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P46. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector45pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector45pin" terminalId="connector45terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector45pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector46" type="male" name="P47">
+      <description>Signal terminal P47 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P47. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector46pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector46pin" terminalId="connector46terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector46pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector47" type="male" name="P48">
+      <description>Signal terminal P48 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P48. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector47pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector47pin" terminalId="connector47terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector47pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector48" type="male" name="P49">
+      <description>Signal terminal P49 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P49. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector48pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector48pin" terminalId="connector48terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector48pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector49" type="male" name="P50">
+      <description>Signal terminal P50 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P50. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector49pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector49pin" terminalId="connector49terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector49pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector50" type="male" name="P51">
+      <description>Signal terminal P51 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P51. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector50pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector50pin" terminalId="connector50terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector50pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector51" type="male" name="P52">
+      <description>Signal terminal P52 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P52. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector51pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector51pin" terminalId="connector51terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector51pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector52" type="male" name="P53">
+      <description>Signal terminal P53 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P53. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector52pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector52pin" terminalId="connector52terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector52pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector53" type="male" name="P54">
+      <description>Signal terminal P54 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P54. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector53pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector53pin" terminalId="connector53terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector53pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector54" type="male" name="P55">
+      <description>Signal terminal P55 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P55. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector54pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector54pin" terminalId="connector54terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector54pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector55" type="male" name="P56">
+      <description>Signal terminal P56 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P56. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector55pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector55pin" terminalId="connector55terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector55pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector56" type="male" name="P57">
+      <description>Signal terminal P57 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P57. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector56pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector56pin" terminalId="connector56terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector56pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector57" type="male" name="P58">
+      <description>Signal terminal P58 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P58. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector57pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector57pin" terminalId="connector57terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector57pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector58" type="male" name="P59">
+      <description>Signal terminal P59 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P59. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector58pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector58pin" terminalId="connector58terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector58pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector59" type="male" name="P60">
+      <description>Signal terminal P60 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P60. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector59pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector59pin" terminalId="connector59terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector59pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector60" type="male" name="P61">
+      <description>Signal terminal P61 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P61. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector60pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector60pin" terminalId="connector60terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector60pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector61" type="male" name="P62">
+      <description>Signal terminal P62 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P62. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector61pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector61pin" terminalId="connector61terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector61pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector62" type="male" name="P63">
+      <description>Signal terminal P63 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P63. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector62pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector62pin" terminalId="connector62terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector62pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector63" type="male" name="P64">
+      <description>Signal terminal P64 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P64. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector63pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector63pin" terminalId="connector63terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector63pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector64" type="male" name="P65">
+      <description>Signal terminal P65 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P65. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector64pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector64pin" terminalId="connector64terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector64pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector65" type="male" name="P66">
+      <description>Signal terminal P66 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P66. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector65pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector65pin" terminalId="connector65terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector65pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector66" type="male" name="P67">
+      <description>Signal terminal P67 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P67. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector66pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector66pin" terminalId="connector66terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector66pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector67" type="male" name="P68">
+      <description>Signal terminal P68 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P68. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector67pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector67pin" terminalId="connector67terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector67pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector68" type="male" name="P69">
+      <description>Signal terminal P69 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P69. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector68pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector68pin" terminalId="connector68terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector68pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector69" type="male" name="P70">
+      <description>Signal terminal P70 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P70. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector69pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector69pin" terminalId="connector69terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector69pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector70" type="male" name="P71">
+      <description>Signal terminal P71 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P71. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector70pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector70pin" terminalId="connector70terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector70pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector71" type="male" name="P72">
+      <description>Signal terminal P72 (I/O, 1.7 V to 5.5 V domain). Multiplexed alternate functions: P72. Supported peripheral buses: General.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector71pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector71pin" terminalId="connector71terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector71pad"/></pcbView>
+      </views>
+    </connector>
+    <connector id="connector72" type="male" name="EPAD/GND">
+      <description>0V electrical ground return terminal (EPAD/GND) for internal core logic, I/O drivers, and analog sub-blocks.</description>
+      <views>
+        <breadboardView><p layer="breadboard" svgId="connector72pin"/></breadboardView>
+        <schematicView><p layer="schematic" svgId="connector72pin" terminalId="connector72terminal"/></schematicView>
+        <pcbView><p layer="copper1" svgId="connector72pad"/></pcbView>
+      </views>
+    </connector>
+  </connectors>
+</module>
