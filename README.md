@@ -1,6 +1,6 @@
 # ChipDocs Universal 24-Format ECAD & 3D MCAD Library + CLI
 
-![Parts](https://img.shields.io/badge/Verified_Components-8,290-0284c7?style=flat-square) ![Formats](https://img.shields.io/badge/24_CAD_Formats-ECAD_%2B_3D_MCAD-0f172a?style=flat-square) ![License](https://img.shields.io/badge/License-CERN--OHL--P--2.0-10b981?style=flat-square)
+![Parts](https://img.shields.io/badge/Verified_Components-8,581-0284c7?style=flat-square) ![Formats](https://img.shields.io/badge/24_CAD_Formats-ECAD_%2B_3D_MCAD-0f172a?style=flat-square) ![License](https://img.shields.io/badge/License-CERN--OHL--P--2.0-10b981?style=flat-square)
 
 > One verified open-hardware source for **EVERY major ECAD & 3D MCAD tool** — powered by **[chipdocs.org](https://chipdocs.org)**.
 
